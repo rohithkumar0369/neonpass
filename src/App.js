@@ -8,7 +8,7 @@ import useMetaMask from './hooks/useMetaMask';
 function App() {
 
   const { connect, disconnect, isActive, account } = useMetaMask()
-
+  console.log(account)
   return (
     <div className="App">
       <header className="App-header">
